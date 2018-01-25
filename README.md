@@ -3,11 +3,11 @@ It is a test project for job apply.
 Design inspired by https://dribbble.com/shots/2641898-Currency-exchange-app-animation
 
 <p align="center">
-  <img src="showcase/showcaseGif1.gif" align="center">
+  <img src="showcase/showCaseGif1.gif" align="center">
  </p>
 
  <p align="center">
-  <img src="showcase/showcaseGif2.gif" align="center">
+  <img src="showcase/showCaseGif2.gif" align="center">
  </p>
 
 <a name="overview" />
