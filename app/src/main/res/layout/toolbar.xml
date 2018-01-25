@@ -30,7 +30,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|center_vertical"
-            android:layout_marginEnd="56dp"
             android:visibility="gone" />
 
         <ImageView
@@ -38,23 +37,11 @@
             android:layout_width="48dp"
             android:layout_height="56dp"
             android:layout_gravity="end"
-            android:layout_marginEnd="56dp"
             android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:scaleType="center"
             android:src="@drawable/ic_refresh_24dp"
             android:visibility="visible" />
 
-        <TextView
-            android:id="@+id/btnUpgrade"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_gravity="end"
-            android:background="?attr/selectableItemBackground"
-            android:clickable="true"
-            android:gravity="center"
-            android:scaleType="center"
-            android:text="PRO"
-            android:textColor="#FFFFFF" />
     </FrameLayout>
 </android.support.v7.widget.Toolbar>

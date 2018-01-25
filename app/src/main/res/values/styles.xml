@@ -7,16 +7,16 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
+        <item name="android:fontFamily">@font/main_font</item>
 
         <item name="android:fitsSystemWindows">true</item>
 
-        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowBackground">@null</item>
     </style>
 
     <style name="StyleAppName">
         <item name="android:textColor">@color/colorSpinTxt</item>
         <item name="android:textSize">@dimen/txtAppName</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
     <style name="StyleEditText">
@@ -50,13 +50,11 @@
     <style name="txtPriceMain">
         <item name="android:textSize">@dimen/txtPriceMain</item>
         <item name="android:textColor">@color/colorPrice</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
     <style name="txtPriceSecondary">
         <item name="android:textSize">@dimen/txtPriceSecondary</item>
         <item name="android:textColor">@color/colorPrice</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
 

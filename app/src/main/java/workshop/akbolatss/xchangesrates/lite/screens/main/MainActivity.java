@@ -255,12 +255,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         onUpdateCurrency();
     }
 
-    @OnClick(R.id.btnUpgrade)
-    protected void onUpgaredPro() {
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("market://details?id=workshop.akbolatss.xchangesrates"));
-        startActivity(intent);
-    }
 
     @OnClick(R.id.btnWeek)
     protected void onLoadLastWeek() {
